@@ -1,0 +1,62 @@
+
+/*
+#F9A91A --> Laboratoria
+#F5F5F0 --> Color de fondo
+#E0E0D1 --> Color de hover
+#333    --> Color de active
+font-family --> sans-serif
+*/
+
+body {
+	font-family: sans-serif;
+}
+
+nav{
+/*	outline: 1px solid red;*/
+	width: 200px;
+}
+ul {
+  	/*outline: 1px solid yellow;*/
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	
+	line-height: 30px;
+}
+
+li{
+	/*outline: 1px solid red;*/
+	background-color: #F5F5F0;
+}
+
+/*Estados de los enlaces: LoVe/HAte link visited Hover active*/
+a{	
+	/*outline: 1px solid green*/;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding-left:10px; 
+}
+a:hover{
+    background-color: #E0E0D1;
+}
+
+a:active{
+    background-color:#333;
+    color:#FFF;	
+}
+
+ul li:first-child{
+	background-color: #F9A91A;
+
+}
+ ul li:first-child a{
+ 	color:#FFF;
+ }
+
+  ul li:first-child a:hover{
+  	color:#000;
+  }
+  ul li:first-child a:active{
+  	color:#FFF;
+  }

@@ -1,0 +1,41 @@
+/*Color de fondo -->  #2E2E2A
+ Color de hover --> #F9A91A
+*/
+body {
+	font-family: sans-serif;
+}
+
+nav{
+	/*outline: 1px solid yellow;*/
+}
+
+ul{
+	/*outline: 1px solid blue;*/
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	background-color: #2E2E2A; 
+	line-height: 40px;
+	/*cuando se usa Float, corregir con overflow: auto*/	
+	overflow: auto;
+}
+
+li{
+	/*outline: 1px solid red;*/
+	width: 100px;
+	/*display: inline-block;*/
+    float: left;
+}
+
+a{
+	/*outline: 1px solid green;*/
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	display: block;
+}
+
+a:hover{
+	background-color: #F9A91A;
+	color: #000;
+}
